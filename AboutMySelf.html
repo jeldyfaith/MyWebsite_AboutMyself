@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Myself</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', 'Times New Roman', Times, serif;
+      background: paleturquoise;
+      color: rgb(208, 56, 185);
+    }
+
+ 
+    .header {
+      background: linear-gradient(to right, rgb(18, 80, 125), rgb(177, 59, 59));
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+  
+    .about {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .about img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+  
+    .sunset {
+      background: rgb(163, 163, 85);
+      color: green;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .sunset img {
+      width: 100%;
+      max-height: 1000px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+   
+    .video {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 220px;
+      border-radius: 10px;
+    }
+
+   
+    .links {
+      background: skyblue;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: maroon;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+    }
+
+   
+    @media (min-width: 768px) {
+      .about {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .about div {
+        flex: 1;
+      }
+
+      .video iframe {
+        height: 400px;
+        width: 70%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <div class="header">
+    <h1>Jeldy Faith </h1>
+    <p>About Myself</p>
+  </div>
+
+  
+  <section class="about">
+    <div>
+      <h2>About Me</h2>
+      <p>
+        Annyeonghaseyo! I'm Jeldy Faith Ramirez, 22 years old from BSIT 601.
+        I’m someone who finds joy in the simple and beautiful moments of life especially watching and capturing sunsets. 
+        There’s something peaceful and inspiring about the colors of the sky as the day ends,
+        and I love preserving those moments through photos.
+
+        I also value making others feel included and appreciated. 
+        I believe that kindness and connection can make a big difference,
+        and I always try to create a positive and welcoming space for the people around me. 
+        At the same time, I’m learning to take care of myself and do the things that make me genuinely happy.
+
+        When it comes to music, I enjoy listening to artists who inspire me and reflect my emotions.
+        One of my favorite artists is Taylor Swift, whose music I connect with because of its meaning and vibe.
+        Their songs often help me relax, think, and feel understood.
+      </p>
+    </div>
+
+    <div>
+      <img src="picofme" alt="My Photo">
+    </div>
+  </section>
+
+ 
+  <section class="sunset">
+    <h2>Beautiful Sunset</h2>
+    <img src="sunset.jfif" alt="Sunset">
+    <p>Sunsets remind me to relax and appreciate life.</p>
+  </section>
+
+ 
+  <section class="video">
+    <h2>Beautiful Scenery</h2>
+    <iframe src="sunsetvid.mp4"></iframe>
+  </section>
+
+  
+  <section class="links">
+    <h2>Connect With Me</h2>
+    <a href="https://www.facebook.com/jeldyfaithhhh">Facebook</a>
+  </section>
+
+</body>
+</html>
